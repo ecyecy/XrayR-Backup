@@ -19,7 +19,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/ecyecy/XrayR/master/install.sh
 # Docker 安装
 
 ```
-docker pull crackair/xrayr:latest && docker run --restart=always --name xrayr -d -v ${PATH_TO_CONFIG}/config.yml:/etc/XrayR/config.yml --network=host crackair/xrayr:latest
+docker pull ecyecy/xrayr:latest && docker run --restart=always --name xrayr -d -v ${PATH_TO_CONFIG}/config.yml:/etc/XrayR/config.yml --network=host ecyecy/xrayr:latest
 ```
 
 # Docker compose 安装
